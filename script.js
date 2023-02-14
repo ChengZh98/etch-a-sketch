@@ -10,8 +10,10 @@ function makeRow(rowLength) {
     const square = document.createElement("div");
     square.classList.add("square");
 
+    const opacity = i < 10 ? i / 10 : 1;
+
     square.addEventListener("mouseover", () => {
-      square.style.backgroundColor = "blue";
+      square.style.backgroundColor = `rgba(255, 0, 0, ${opacity})`;
     });
 
     row.append(square);

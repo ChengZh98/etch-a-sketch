@@ -9,9 +9,7 @@ body {
   border-style: solid;
   border-width: 1px;
 }
-.square:hover {
-  background-color: yellow;
-}
+
 .container {
   display: flex;
   flex-direction: column;
